@@ -12,3 +12,9 @@ source .venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+## Rodando api
+
+```bash
+uvicorn api:app --reload
+```
